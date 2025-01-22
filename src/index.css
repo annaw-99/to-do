@@ -6,6 +6,21 @@
   body {
     @apply bg-[#f5f5f7];
     -webkit-font-smoothing: antialiased;
+    min-width: 375px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  @media screen and (display-mode: standalone) {
+    body {
+      width: 400px;
+      height: 600px;
+      overflow-y: auto;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
 
