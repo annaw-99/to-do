@@ -1,6 +1,3 @@
-// This optional code is used to register a service worker.
-// register() is not called by default.
-
 export function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     window.addEventListener('load', () => {

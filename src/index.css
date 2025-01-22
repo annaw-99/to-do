@@ -7,6 +7,28 @@
     @apply bg-[#f5f5f7];
     -webkit-font-smoothing: antialiased;
   }
+
+  /* Only apply these styles when running as installed PWA */
+  @media all and (display-mode: standalone) {
+    html, body {
+      min-height: 100vh;
+      max-height: 100vh;
+    }
+
+    #root {
+      max-width: 500px;
+      min-height: 600px;
+      max-height: 80vh;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow-y: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+  }
 }
 
 @layer components {
