@@ -1,57 +1,50 @@
-# Getting Started with Create React App
+## Tu-Do
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A minimalist Todo List Progressive Web App (PWA) built with React. Manage your tasks with a clean, modern interface that works offline.
 
-## Available Scripts
+### Tech Stack
 
-In the project directory, you can run:
+#### Frontend
+- React 18
+- Tailwind CSS 
+- Progressive Web App (PWA)
 
-### `npm start`
+#### State Management
+- React Hooks (useState, useEffect)
+- Local Storage for data persistence
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### PWA Features
+- Service Workers for offline functionality
+- Web App Manifest for installation
+- Cache API for asset caching
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Development Tools
+- Create React App
+- PostCSS for CSS processing
+- ESLint for code linting
+- Vercel for hosting and deployment
 
-### `npm test`
+### Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Progressive Web App (PWA) - installable on desktop and mobile
+- Offline support with local storage persistence
+- Add, complete, and remove todos
+- Task management with due dates and priority levels
 
-### `npm run build`
+### Development
+To run this project locally:
+1. Clone the repository
+2. Navigate to the project directory
+3. Run `npm install` to install dependencies
+4. Run `npm start` to start the development server
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6. Run `npm run build` to build the app for production
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation as PWA
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit the deployed app in Chrome/Edge
+2. Click the install button in your browser's address bar
+3. The app will install and open in a standalone window
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
+### Contact
+Feel free to reach out if you have any questions or suggestions!
