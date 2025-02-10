@@ -3,7 +3,6 @@ export function register(config) {
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
-      // Add window size control
       if (window.matchMedia('(display-mode: standalone)').matches) {
         const width = 800;
         const height = 800;
@@ -19,7 +18,6 @@ export function register(config) {
         .then(registration => {
           console.log('SW registered: ', registration);
           
-          // Also set size after installation
           window.addEventListener('appinstalled', (event) => {
             const width = 800;
             const height = 800;
