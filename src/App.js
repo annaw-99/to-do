@@ -32,9 +32,9 @@ function App() {
   };
 
   return (
-    <div className="bg-[#f5f5f7] p-8">
-      <div className="max-w-3xl mx-auto px-4">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
+    <div className="min-h-screen bg-[#f5f5f7] p-6">
+      <div className="max-w-3xl mx-auto">
+        <div className="bg-white rounded-2xl shadow-lg p-6">
           <h1 className="text-xl font-semibold text-[#1d1d1f] text-left mb-6">
             To-Do List
           </h1>
